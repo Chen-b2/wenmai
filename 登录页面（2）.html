@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <style>
+        body{
+            width: 100%;
+            /* height: 910px; */
+            margin: 0;
+            padding: 0;
+            background-image: url(https://m.qpic.cn/psc?/V54Ej0xy1RuWkA1GPWJt2jBWKe1a2mf4/TmEUgtj9EK6.7V8ajmQrEKIvhkk6CqWbOGgBiAM1pOS5ZLCp2wTFgdNt*Od3*tqW2Xs9LTmLzd2hqmlwfL26WhoMjBM1t88jaQb3RoS*6mY!/b&bo=gAc4BIAHOAQBFzA!&rf=viewer_4&t=5);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #aside-left{
+            float: left;
+            width: 60%;
+            height: 630px;
+            /* background-color: aqua; */
+            /* background-size: cover; */
+        }
+        #aside-right{
+            float: right;
+            width: 39%;
+            height: 630px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 30px 30px 30px 30px;
+            position: relative;
+            top: 5px;
+            opacity: 60%;
+        }
+        #img1{
+            width: 70%;
+            position: relative;
+            top: 15%;
+            left: 15%;
+        }
+        #form1{
+            width: 80%;
+            position: relative;
+            top: 18%;
+            left: 17%;
+        }
+        #username{
+            width: 79%;
+            /* border-radius: 1px; */
+            position: absolute;
+            padding: 8px ;
+            font-family: 黑体;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        #password{
+            width: 79%;
+            /* border-radius: 1px; */
+            position: absolute;
+            padding: 8px ;
+            font-family: 黑体;
+            cursor: pointer;
+            font-size: 15px;
+            top: 120%;
+        }
+        #p2{
+            position: absolute;
+            top: 150%;
+            font-size: 10px;
+        }
+        .button {
+            width: 84%;
+            background-image: linear-gradient(25deg,#68c1fd,#d6e2ed,#e6f3fe,#59aded);
+            /* border: 2px rgb(150, 199, 234) solid; */
+            border: 0px;
+            border-radius: 10PX;
+            position: absolute;
+            /* top: 60%;
+            left:90%; */
+            /* transform: translateX(-50%); */
+            padding: 10px ;
+            font-family: 黑体;
+            cursor: pointer;
+            font-size: 20px;
+            top: 180%;
+        }
+        a:link{
+            text-decoration: none;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <section clasa="container">
+            <aside id="aside-left">
+                <img id="img1" src="https://m.qpic.cn/psc?/V54Ej0xy1RuWkA1GPWJt2jBWKe1a2mf4/TmEUgtj9EK6.7V8ajmQrEKIvhkk6CqWbOGgBiAM1pORZ*FLsvO*CkfYc4lqKg5ze328nuvNoflvJup5.6cQhZ82CAyy2sf0XpuTmvEjTBWA!/b&bo=ewP2AnsD9gIDR2I!&rf=viewer_4&t=5" alt="" >
+            </aside>
+            <aside id="aside-right">
+                <div id="form1">
+                    <h2>欢迎登录</h2>
+                    <p id="p1"><ins><b>密码登录</b></ins>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;短信登录</p>
+                    <form >
+                        <!-- <label for="username">用户名:</label> -->
+                        <input type="text" id="username" name="username" placeholder="请输入手机号/邮箱账号"><br>
+                        <!-- <label for="password">密码:</label> -->
+                        <input type="password" id="password" name="password" placeholder="请输入密码"><br>
+                        <p id="p2">忘记密码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            还没注册？</p>
+                        <button type="submit" class="button"><a href="#">立&nbsp;即&nbsp;登&nbsp;录</a></button>
+                    </form>
+                </div>
+            </aside>
+        </section>
+    </main>
+</body>
+</html>
